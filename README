@@ -1,4 +1,6 @@
+py -3.11 --version
 py -3.11 -m venv venv     
+.\venv_tf\Scripts\Activate.ps1
 python -m pip install --upgrade pip
-pip install tensorflow 
+pip install pandas numpy scikit-learn matplotlib tensorflow  
 pip install mysql-connector-python  
